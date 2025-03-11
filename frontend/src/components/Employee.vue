@@ -103,8 +103,8 @@
     import axios from 'axios';
 
     const variables = {
-        API_URL: "http://127.0.0.1:8000/",
-        PHOTO_URL: "http://127.0.0.1:8000/Photos/"
+        API_URL: "https://vuejs-three-alpha.vercel.app//",
+        PHOTO_URL: "https://vuejs-three-alpha.vercel.app//"
     };
 
     export default {
