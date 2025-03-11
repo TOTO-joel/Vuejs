@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.btn {
+    color: #007bff !important; /* Bootstrap blue */
+   
+  }
+  .btn:hover{
+    color: white !important; /* Bootstrap blue */
+   
+  }
