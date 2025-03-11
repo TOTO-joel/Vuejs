@@ -1,6 +1,7 @@
 from pathlib import Path
 import os
-
+# import dj_database_url
+ # Ensure this library is installed
 BASE_DIR=Path(__file__).resolve(strict=True).parent.parent
 MEDIA_URL='/Photos/'
 MEDIA_ROOT=os.path.join(BASE_DIR,"Photos")
@@ -79,7 +80,8 @@ DATABASES = {
         'NAME': 'mydatabase_cu98',
         'USER': 'joel',
         'PASSWORD': 'NNQF9fJmgr5HIPC9xFCa2LqakCXPifCM',
-        'HOST' : 'dpg-cv89hrjqf0us73a3bmpg-a',
+        'HOST' : 'dpg-cv89hrjqf0us73a3bmpg-a.oregon-postgres.render.com',
+        
         'PORT' : '5432'
     }
 }
